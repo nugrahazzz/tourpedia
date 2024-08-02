@@ -7,10 +7,10 @@ import 'package:tourpedia/core/constant/assets/image_assets.dart';
 import 'package:tourpedia/core/utils/resources/color_manager.dart';
 import 'package:tourpedia/core/utils/resources/font_manager.dart';
 import 'package:tourpedia/features/profiling/controller/profiling_controller.dart';
-import 'package:tourpedia/features/profiling/pages/component/add_username.dart';
-import 'package:tourpedia/features/profiling/pages/component/choose_avatar.dart';
-import 'package:tourpedia/features/profiling/pages/component/pick_destination.dart';
 import 'package:smooth_page_indicator/smooth_page_indicator.dart';
+import 'package:tourpedia/features/profiling/widgets/add_username.dart';
+import 'package:tourpedia/features/profiling/widgets/choose_avatar.dart';
+import 'package:tourpedia/features/profiling/widgets/pick_destination.dart';
 
 class ProfilingPage extends GetView<ProfilingController> {
   const ProfilingPage({super.key});

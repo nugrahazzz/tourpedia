@@ -3,10 +3,10 @@ import 'package:refreshed/refreshed.dart';
 import 'package:tourpedia/core/app/extensions.dart';
 import 'package:tourpedia/core/app/function.dart';
 import 'package:tourpedia/features/onboarding/controller/onboarding_controller.dart';
+import 'package:tourpedia/features/onboarding/widgets/next_page_button.dart';
+import 'package:tourpedia/features/onboarding/widgets/onboarding_page_indicator.dart';
+import 'package:tourpedia/features/onboarding/widgets/ripple.dart';
 
-import 'widgets/next_page_button.dart';
-import 'widgets/onboarding_page_indicator.dart';
-import 'widgets/ripple.dart';
 
 class OnboardingPage extends GetView<OnboardingController> {
   const OnboardingPage({super.key});

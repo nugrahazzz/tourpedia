@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:quickly/quickly.dart';
 import 'package:refreshed/refreshed.dart';
 import 'package:tourpedia/config/routes/routes.dart';
-import 'package:tourpedia/features/onboarding/pages/widgets/onboarding_content.dart';
+import 'package:tourpedia/features/onboarding/widgets/onboarding_content.dart';
 import 'package:video_player/video_player.dart';
 import 'package:tourpedia/core/services/local_database_service.dart';
 

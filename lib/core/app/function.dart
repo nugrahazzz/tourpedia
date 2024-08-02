@@ -3,7 +3,6 @@ import 'dart:math';
 import 'package:connectivity_plus/connectivity_plus.dart';
 import 'package:refreshed/refreshed.dart';
 import 'package:tourpedia/core/app/extensions.dart';
-import 'package:tourpedia/core/constant/assets/lottie_assets.dart';
 import 'package:tourpedia/core/utils/global_widgets/widgets.dart';
 import 'package:tourpedia/core/utils/resources/color_manager.dart';
 import 'package:tourpedia/core/utils/resources/font_manager.dart';
@@ -93,32 +92,6 @@ void checkConnectionBeforeExecute(Function() functions) async {
     functions();
   }
 // print(result);
-}
-
-//Customize Dialog
-void customDialog(
-    {String? title,
-    String? imagePath,
-    String? description,
-    String? buttonText,
-    Function()? function,
-    Color? colorStatusBar,
-    Color? colorNavigationBar}) {
-  Get.dialog(
-      CustomDialog(
-        title: title ?? "Keluar",
-        imagePath: imagePath ?? LottieAssets.exit,
-        description:
-            description ?? "Apakah Anda ingin meninggalkan aplikasi ini?",
-        buttonText: buttonText ?? "Ya, tentu",
-        function: function ??
-            () {
-              SystemChannels.platform.invokeMethod('SystemNavigator.pop');
-            },
-        colorStatusBar: colorStatusBar,
-        colorNavigationBar: colorNavigationBar,
-      ),
-      barrierColor: ColorManager.bgDark.withOpacity(0.33));
 }
 
 //Focus Textfield

@@ -5,8 +5,6 @@ class Routes {
 
   //
   static const homePage = '/homePage';
-  static const agendaPage = '/agendaPage';
-  static const timetablePage = '/timetablePage';
 
   static const chatGeminiPage = '/chatGeminiPage';
 }
